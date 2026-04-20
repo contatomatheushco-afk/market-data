@@ -1,0 +1,27 @@
+# ──────────────────────────────────────────────────────────────────
+# tickers_monitorados.txt
+# Liste abaixo os tickers que você quer monitorar.
+# Um ticker por linha. Sempre com o sufixo .SA (B3).
+# Linhas que começam com # são ignoradas (são comentários).
+#
+# IMPORTANTE: Tickers da B3 sempre terminam em .SA
+#   Ação:  PETR4.SA  (Petrobras PN)
+#   ETF:   BOVA11.SA (iShares Ibovespa)
+#   FII:   HGLG11.SA (CSHG Logística)
+# ──────────────────────────────────────────────────────────────────
+
+# ── ETFs de índice (exemplos) ──────────────────────────────────────
+BOVA11.SA
+IVVB11.SA
+SMAL11.SA
+
+# ── Ações (exemplos) ──────────────────────────────────────────────
+PETR4.SA
+VALE3.SA
+ITUB4.SA
+WEGE3.SA
+
+# ── FIIs (exemplos) ───────────────────────────────────────────────
+HGLG11.SA
+KNRI11.SA
+XPML11.SA
