@@ -1,0 +1,13 @@
+name: Atualizar dados de mercado
+
+on:
+  schedule:
+    - cron: "0 10 * * 1-5" # seg-sex às 07h BRT
+  workflow_dispatch: # permite rodar manualmente
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps: (...)
